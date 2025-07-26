@@ -1,26 +1,19 @@
 # Push_buttton_counter
-# Home Automation - Speech Controlled (Simulation Version)
 
-This is a simple simulation of a speech and Bluetooth controlled home automation system using Arduino.
+This project simulates a digital counter using a push button and Arduino. Each press of the button increases a count, which is displayed on the Serial Monitor. This basic embedded system demonstrates input detection, debouncing, and simple logic control.
 
-### Commands:
-- 1: Light ON
-- 2: Light OFF
-- 3: Fan ON
-- 4: Fan OFF
+## How It Works:
+When the button is pressed, a counter value increments by 1.
+The current count is printed in the Serial Monitor.
+Can be extended to display on LCD, 7-segment, or OLED.
 
-Simulated using Serial Monitor in Tinkercad.
+## Components Used:
 
----
-
-## Components Used
-- Arduino UNO
-- LED (Red – Light)
-- LED (Green – Fan)
-- Resistors
-- Serial Monitor (acts like Bluetooth)
-
----
+Arduino Uno
+Push Button
+10kΩ Resistor (pull-down resistor)
+Breadboard
+Jumper Wires
 
 ## Project Title: Push Button Counter
 
