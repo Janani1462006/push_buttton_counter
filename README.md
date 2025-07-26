@@ -22,6 +22,13 @@ Simulated using Serial Monitor in Tinkercad.
 
 ---
 
-## Note
-This is a simulation version only. No relay or Bluetooth used.
+## Project Title: Push Button Counter
+
+This project uses an Arduino to count the number of times a push button is pressed. Each button press increases a counter, and the value is displayed on the Serial Monitor or an LCD. It's a simple example of digital input reading and debouncing in embedded systems.
+
+## Tinkercad Project link
+
+https://www.tinkercad.com/things/e7pHVJB3gQo-push-button-counter
+
+Created by: Janani M
 
